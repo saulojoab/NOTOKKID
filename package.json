@@ -1,0 +1,29 @@
+{
+  "name": "notokkid",
+  "version": "1.0.0",
+  "description": "A twitch bot for my stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saulojoab/NOTOKKID.git"
+  },
+  "keywords": [
+    "bot",
+    "twitch",
+    "laudeee",
+    "saulojoab"
+  ],
+  "author": "Saulo Joab Penha Simplício",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saulojoab/NOTOKKID/issues"
+  },
+  "homepage": "https://github.com/saulojoab/NOTOKKID#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "tmi.js": "^1.5.0"
+  }
+}
