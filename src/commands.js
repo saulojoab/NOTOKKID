@@ -1,7 +1,7 @@
 const commands = [
     {
         action: '!comandos',
-        message: '!github !twitter !donate !postura !agua !macho !site'
+        message: '!github !twitter !donate !postura !agua !macho !site !bot'
     },
     {
         action: '!agua',
@@ -20,6 +20,10 @@ const commands = [
         count: 0,
         message: `Saulo já falou "macho" <X> vezes só nessa live.`,
         oldMessage: 'Saulo já falou "macho" <X> vezes só nessa live.'
+    },
+    {
+        action: '!bot',
+        message: 'Oi, eu sou o NOTOKBOT, o bot do canal. Meu código é publico, se quiser dar uma olhada tá aqui: https://github.com/saulojoab/NOTOKKID! <3'
     },
     {
         action: '!github',
