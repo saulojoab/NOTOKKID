@@ -17,9 +17,10 @@ const client = new tmi.Client({
 
 client.connect();
 
+
 client.on('message', (channel, tags, message, self) => {
-    if (self) return;
-    
+	if (self) return;
+
     // Processing the messages.
     const response = new Message(message, tags)._process();
 

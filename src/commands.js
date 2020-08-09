@@ -1,7 +1,7 @@
 const commands = [
     {
         action: '!comandos',
-        message: '!github !twitter !donate !postura !agua !macho !site !bot'
+        message: '!github !discord !twitter !donate !postura !agua !macho !site !bot '
     },
     {
         action: '!agua',
@@ -24,6 +24,10 @@ const commands = [
     {
         action: '!bot',
         message: 'Oi, eu sou o NOTOKBOT, o bot do canal. Meu código é publico, se quiser dar uma olhada tá aqui: https://github.com/saulojoab/NOTOKKID! <3'
+    },
+    {
+        action: '!discord',
+        message: 'A gente tem uma comunidade do discord. Chega mais pra gente conversar e fazer projetos juntos: https://discord.gg/q93AEbT <3'
     },
     {
         action: '!github',
