@@ -17,6 +17,15 @@ const client = new tmi.Client({
 
 client.connect();
 
+client.on("roomstate", (channel) => {
+    setInterval(() => {
+		client.say(channel, 'A gente tem uma comunidade do discord. Chega mais pra gente conversar e fazer projetos juntos: https://discord.gg/q93AEbT <3');
+	}, 60000 * 5)
+
+	setInterval(() => {
+		client.say(channel, 'A gente tem uma comunidade do discord. Chega mais pra gente conversar e fazer projetos juntos: https://discord.gg/q93AEbT <3');
+	}, 60000 * 6)
+});
 
 client.on('message', (channel, tags, message, self) => {
 	if (self) return;
